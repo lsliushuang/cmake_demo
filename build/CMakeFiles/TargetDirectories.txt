@@ -1,0 +1,8 @@
+/home/lius/stduy/cmake_demo/build/CMakeFiles/rebuild_cache.dir
+/home/lius/stduy/cmake_demo/build/CMakeFiles/edit_cache.dir
+/home/lius/stduy/cmake_demo/build/src/process1/CMakeFiles/rebuild_cache.dir
+/home/lius/stduy/cmake_demo/build/src/process1/CMakeFiles/process1.dir
+/home/lius/stduy/cmake_demo/build/src/process1/CMakeFiles/edit_cache.dir
+/home/lius/stduy/cmake_demo/build/src/process2/CMakeFiles/rebuild_cache.dir
+/home/lius/stduy/cmake_demo/build/src/process2/CMakeFiles/process2.dir
+/home/lius/stduy/cmake_demo/build/src/process2/CMakeFiles/edit_cache.dir

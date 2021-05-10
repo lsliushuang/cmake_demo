@@ -1,0 +1,1 @@
+gcc    CMakeFiles/process1.dir/process1.c.o  -o ../../../bin/process1 -lm -lpthread 
