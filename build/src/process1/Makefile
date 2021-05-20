@@ -125,6 +125,33 @@ process1/fast:
 	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/build
 .PHONY : process1/fast
 
+list.o: list.c.o
+
+.PHONY : list.o
+
+# target to build an object file
+list.c.o:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/list.c.o
+.PHONY : list.c.o
+
+list.i: list.c.i
+
+.PHONY : list.i
+
+# target to preprocess a source file
+list.c.i:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/list.c.i
+.PHONY : list.c.i
+
+list.s: list.c.s
+
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.c.s:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/list.c.s
+.PHONY : list.c.s
+
 process1.o: process1.c.o
 
 .PHONY : process1.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... process1"
 	@echo "... edit_cache"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
 	@echo "... process1.o"
 	@echo "... process1.i"
 	@echo "... process1.s"

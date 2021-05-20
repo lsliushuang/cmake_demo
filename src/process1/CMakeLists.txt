@@ -19,10 +19,10 @@ add_compile_options(-Wall -o0 -Wstrict-prototypes -Wmissing-prototypes)
 
 
 #源码搜索目录
-#aux_source_directory("${PROJECT_SOURCE_DIR}/src/process1" src)
+aux_source_directory(. src)
 
 #头文件目录
-#include_directories("${PROJECT_SOURCE_DIR}/src/process1" inc)
+include_directories(. inc)
 
 #动态链接库目录
 #link_directories("${PROJECT_SOURCE_DIR}/lib")
@@ -33,7 +33,7 @@ link_libraries(pthread)
 
 
 #编译生成目标
-add_executable(process1 process1) #生成可执行文件   
+add_executable(process1 ${src}) #生成可执行文件   
 #add_executable(test2_demo ${test2_src})    
 #add_library(common STATIC test.c) # 生成静态库
 #add_library(common SHARED test.c) # 生成动态库或共享库

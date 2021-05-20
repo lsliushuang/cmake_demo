@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lius/stduy/cmake_demo/src/process2/process2.c
+stdio.h
+-
+process2.h
+/home/lius/stduy/cmake_demo/src/process2/process2.h
+
+/home/lius/stduy/cmake_demo/src/process2/process2.h
+

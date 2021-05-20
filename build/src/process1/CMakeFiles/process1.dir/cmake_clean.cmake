@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/process1.dir/list.c.o"
   "CMakeFiles/process1.dir/process1.c.o"
   "../../../bin/process1.pdb"
   "../../../bin/process1"

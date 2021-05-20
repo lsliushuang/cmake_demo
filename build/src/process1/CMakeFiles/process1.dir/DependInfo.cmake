@@ -4,12 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/lius/stduy/cmake_demo/src/process1/list.c" "/home/lius/stduy/cmake_demo/build/src/process1/CMakeFiles/process1.dir/list.c.o"
   "/home/lius/stduy/cmake_demo/src/process1/process1.c" "/home/lius/stduy/cmake_demo/build/src/process1/CMakeFiles/process1.dir/process1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../src/process1/."
+  "../src/process1/inc"
   )
 
 # Targets to which this target links.

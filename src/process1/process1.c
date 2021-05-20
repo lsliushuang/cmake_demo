@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <math.h>
 #include "process1.h"
+#include "list.h" 
 
 void print_test(void)
 {
@@ -9,6 +11,7 @@ void print_test(void)
 int main(void)
 {
 
+    test_slist();
     print_test();
     
     return 0;
