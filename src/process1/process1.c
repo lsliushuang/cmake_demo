@@ -2,18 +2,17 @@
 #include <math.h>
 #include "process1.h"
 #include "list.h" 
+#include "c_base.h"
+#include "string.h"
 
-void print_test(void)
-{
-     printf("test process1\n");
-}
+
 
 int main(void)
 {
 
     test_slist();
-    print_test();
-    
+    test_c_base();
+    test_str();
     return 0;
 
 }

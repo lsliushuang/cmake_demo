@@ -15,7 +15,7 @@ set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_C_COMPILER gcc)
 
 #设置编译选项
-add_compile_options(-Wall -o0 -Wstrict-prototypes -Wmissing-prototypes)
+add_compile_options(-Wall -g -o0 -Wstrict-prototypes -Wmissing-prototypes)
 
 
 #源码搜索目录

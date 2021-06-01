@@ -57,9 +57,22 @@ include src/process1/CMakeFiles/process1.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/process1/CMakeFiles/process1.dir/flags.make
 
+src/process1/CMakeFiles/process1.dir/c_base.c.o: src/process1/CMakeFiles/process1.dir/flags.make
+src/process1/CMakeFiles/process1.dir/c_base.c.o: ../src/process1/c_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/process1/CMakeFiles/process1.dir/c_base.c.o"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/process1.dir/c_base.c.o   -c /home/lius/stduy/cmake_demo/src/process1/c_base.c
+
+src/process1/CMakeFiles/process1.dir/c_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/process1.dir/c_base.c.i"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lius/stduy/cmake_demo/src/process1/c_base.c > CMakeFiles/process1.dir/c_base.c.i
+
+src/process1/CMakeFiles/process1.dir/c_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/process1.dir/c_base.c.s"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lius/stduy/cmake_demo/src/process1/c_base.c -o CMakeFiles/process1.dir/c_base.c.s
+
 src/process1/CMakeFiles/process1.dir/list.c.o: src/process1/CMakeFiles/process1.dir/flags.make
 src/process1/CMakeFiles/process1.dir/list.c.o: ../src/process1/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/process1/CMakeFiles/process1.dir/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/process1/CMakeFiles/process1.dir/list.c.o"
 	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/process1.dir/list.c.o   -c /home/lius/stduy/cmake_demo/src/process1/list.c
 
 src/process1/CMakeFiles/process1.dir/list.c.i: cmake_force
@@ -72,7 +85,7 @@ src/process1/CMakeFiles/process1.dir/list.c.s: cmake_force
 
 src/process1/CMakeFiles/process1.dir/process1.c.o: src/process1/CMakeFiles/process1.dir/flags.make
 src/process1/CMakeFiles/process1.dir/process1.c.o: ../src/process1/process1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/process1/CMakeFiles/process1.dir/process1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/process1/CMakeFiles/process1.dir/process1.c.o"
 	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/process1.dir/process1.c.o   -c /home/lius/stduy/cmake_demo/src/process1/process1.c
 
 src/process1/CMakeFiles/process1.dir/process1.c.i: cmake_force
@@ -83,19 +96,51 @@ src/process1/CMakeFiles/process1.dir/process1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/process1.dir/process1.c.s"
 	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lius/stduy/cmake_demo/src/process1/process1.c -o CMakeFiles/process1.dir/process1.c.s
 
+src/process1/CMakeFiles/process1.dir/statck.c.o: src/process1/CMakeFiles/process1.dir/flags.make
+src/process1/CMakeFiles/process1.dir/statck.c.o: ../src/process1/statck.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/process1/CMakeFiles/process1.dir/statck.c.o"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/process1.dir/statck.c.o   -c /home/lius/stduy/cmake_demo/src/process1/statck.c
+
+src/process1/CMakeFiles/process1.dir/statck.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/process1.dir/statck.c.i"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lius/stduy/cmake_demo/src/process1/statck.c > CMakeFiles/process1.dir/statck.c.i
+
+src/process1/CMakeFiles/process1.dir/statck.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/process1.dir/statck.c.s"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lius/stduy/cmake_demo/src/process1/statck.c -o CMakeFiles/process1.dir/statck.c.s
+
+src/process1/CMakeFiles/process1.dir/string.c.o: src/process1/CMakeFiles/process1.dir/flags.make
+src/process1/CMakeFiles/process1.dir/string.c.o: ../src/process1/string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/process1/CMakeFiles/process1.dir/string.c.o"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/process1.dir/string.c.o   -c /home/lius/stduy/cmake_demo/src/process1/string.c
+
+src/process1/CMakeFiles/process1.dir/string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/process1.dir/string.c.i"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lius/stduy/cmake_demo/src/process1/string.c > CMakeFiles/process1.dir/string.c.i
+
+src/process1/CMakeFiles/process1.dir/string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/process1.dir/string.c.s"
+	cd /home/lius/stduy/cmake_demo/build/src/process1 && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lius/stduy/cmake_demo/src/process1/string.c -o CMakeFiles/process1.dir/string.c.s
+
 # Object files for target process1
 process1_OBJECTS = \
+"CMakeFiles/process1.dir/c_base.c.o" \
 "CMakeFiles/process1.dir/list.c.o" \
-"CMakeFiles/process1.dir/process1.c.o"
+"CMakeFiles/process1.dir/process1.c.o" \
+"CMakeFiles/process1.dir/statck.c.o" \
+"CMakeFiles/process1.dir/string.c.o"
 
 # External object files for target process1
 process1_EXTERNAL_OBJECTS =
 
+../bin/process1: src/process1/CMakeFiles/process1.dir/c_base.c.o
 ../bin/process1: src/process1/CMakeFiles/process1.dir/list.c.o
 ../bin/process1: src/process1/CMakeFiles/process1.dir/process1.c.o
+../bin/process1: src/process1/CMakeFiles/process1.dir/statck.c.o
+../bin/process1: src/process1/CMakeFiles/process1.dir/string.c.o
 ../bin/process1: src/process1/CMakeFiles/process1.dir/build.make
 ../bin/process1: src/process1/CMakeFiles/process1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../../../bin/process1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable ../../../bin/process1"
 	cd /home/lius/stduy/cmake_demo/build/src/process1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/process1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

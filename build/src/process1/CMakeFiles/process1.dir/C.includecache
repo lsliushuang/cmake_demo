@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/lius/stduy/cmake_demo/src/process1/list.c
+../src/process1/./string.h
+
+/home/lius/stduy/cmake_demo/src/process1/string.c
 stdio.h
 -
-stdbool.h
+string.h
 -
-list.h
-/home/lius/stduy/cmake_demo/src/process1/list.h
-
-/home/lius/stduy/cmake_demo/src/process1/list.h
-stdbool.h
--
+string.h
+/home/lius/stduy/cmake_demo/src/process1/string.h
 

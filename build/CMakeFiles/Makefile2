@@ -89,7 +89,7 @@ src/process1/preinstall:
 src/process1/CMakeFiles/process1.dir/all:
 	$(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/depend
 	$(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=1,2,3 "Built target process1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target process1"
 .PHONY : src/process1/CMakeFiles/process1.dir/all
 
 # Include target in all.
@@ -99,7 +99,7 @@ all: src/process1/CMakeFiles/process1.dir/all
 
 # Build rule for subdir invocation for target.
 src/process1/CMakeFiles/process1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lius/stduy/cmake_demo/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lius/stduy/cmake_demo/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/process1/CMakeFiles/process1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lius/stduy/cmake_demo/build/CMakeFiles 0
 .PHONY : src/process1/CMakeFiles/process1.dir/rule
@@ -144,7 +144,7 @@ src/process2/preinstall:
 src/process2/CMakeFiles/process2.dir/all:
 	$(MAKE) -f src/process2/CMakeFiles/process2.dir/build.make src/process2/CMakeFiles/process2.dir/depend
 	$(MAKE) -f src/process2/CMakeFiles/process2.dir/build.make src/process2/CMakeFiles/process2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=4,5 "Built target process2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lius/stduy/cmake_demo/build/CMakeFiles --progress-num=7,8 "Built target process2"
 .PHONY : src/process2/CMakeFiles/process2.dir/all
 
 # Include target in all.

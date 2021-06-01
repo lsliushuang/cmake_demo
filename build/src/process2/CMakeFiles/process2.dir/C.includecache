@@ -9,6 +9,12 @@
 /home/lius/stduy/cmake_demo/src/process2/process2.c
 stdio.h
 -
+pthread.h
+-
+time.h
+-
+sys/time.h
+-
 process2.h
 /home/lius/stduy/cmake_demo/src/process2/process2.h
 

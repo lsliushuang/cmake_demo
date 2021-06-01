@@ -125,6 +125,33 @@ process1/fast:
 	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/build
 .PHONY : process1/fast
 
+c_base.o: c_base.c.o
+
+.PHONY : c_base.o
+
+# target to build an object file
+c_base.c.o:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/c_base.c.o
+.PHONY : c_base.c.o
+
+c_base.i: c_base.c.i
+
+.PHONY : c_base.i
+
+# target to preprocess a source file
+c_base.c.i:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/c_base.c.i
+.PHONY : c_base.c.i
+
+c_base.s: c_base.c.s
+
+.PHONY : c_base.s
+
+# target to generate assembly for a file
+c_base.c.s:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/c_base.c.s
+.PHONY : c_base.c.s
+
 list.o: list.c.o
 
 .PHONY : list.o
@@ -179,6 +206,60 @@ process1.c.s:
 	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/process1.c.s
 .PHONY : process1.c.s
 
+statck.o: statck.c.o
+
+.PHONY : statck.o
+
+# target to build an object file
+statck.c.o:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/statck.c.o
+.PHONY : statck.c.o
+
+statck.i: statck.c.i
+
+.PHONY : statck.i
+
+# target to preprocess a source file
+statck.c.i:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/statck.c.i
+.PHONY : statck.c.i
+
+statck.s: statck.c.s
+
+.PHONY : statck.s
+
+# target to generate assembly for a file
+statck.c.s:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/statck.c.s
+.PHONY : statck.c.s
+
+string.o: string.c.o
+
+.PHONY : string.o
+
+# target to build an object file
+string.c.o:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/string.c.o
+.PHONY : string.c.o
+
+string.i: string.c.i
+
+.PHONY : string.i
+
+# target to preprocess a source file
+string.c.i:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/string.c.i
+.PHONY : string.c.i
+
+string.s: string.c.s
+
+.PHONY : string.s
+
+# target to generate assembly for a file
+string.c.s:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/string.c.s
+.PHONY : string.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -188,12 +269,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... process1"
 	@echo "... edit_cache"
+	@echo "... c_base.o"
+	@echo "... c_base.i"
+	@echo "... c_base.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
 	@echo "... process1.o"
 	@echo "... process1.i"
 	@echo "... process1.s"
+	@echo "... statck.o"
+	@echo "... statck.i"
+	@echo "... statck.s"
+	@echo "... string.o"
+	@echo "... string.i"
+	@echo "... string.s"
 .PHONY : help
 
 

@@ -108,15 +108,17 @@ void insert_element_last(element_type X, plist_node_t L)
 
 void test_slist(void)
 {
-    
+
+    plist_node_t tmp;
     s_list = init_list();
     insert_element_last(2,s_list);
     insert_element_last(3,s_list);
     insert_element_last(4,s_list);
     insert_element_last(5,s_list);
-    delete_element(2,s_list);
+    tmp = find_prev_element(5,s_list);
+    
 
-
+    printf("X = %d \n",tmp->element);
 
     plist_node_t tmp_cell = s_list;
 
