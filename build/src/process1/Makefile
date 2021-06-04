@@ -152,6 +152,33 @@ c_base.c.s:
 	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/c_base.c.s
 .PHONY : c_base.c.s
 
+hj.o: hj.c.o
+
+.PHONY : hj.o
+
+# target to build an object file
+hj.c.o:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/hj.c.o
+.PHONY : hj.c.o
+
+hj.i: hj.c.i
+
+.PHONY : hj.i
+
+# target to preprocess a source file
+hj.c.i:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/hj.c.i
+.PHONY : hj.c.i
+
+hj.s: hj.c.s
+
+.PHONY : hj.s
+
+# target to generate assembly for a file
+hj.c.s:
+	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/hj.c.s
+.PHONY : hj.c.s
+
 list.o: list.c.o
 
 .PHONY : list.o
@@ -206,33 +233,6 @@ process1.c.s:
 	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/process1.c.s
 .PHONY : process1.c.s
 
-statck.o: statck.c.o
-
-.PHONY : statck.o
-
-# target to build an object file
-statck.c.o:
-	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/statck.c.o
-.PHONY : statck.c.o
-
-statck.i: statck.c.i
-
-.PHONY : statck.i
-
-# target to preprocess a source file
-statck.c.i:
-	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/statck.c.i
-.PHONY : statck.c.i
-
-statck.s: statck.c.s
-
-.PHONY : statck.s
-
-# target to generate assembly for a file
-statck.c.s:
-	cd /home/lius/stduy/cmake_demo/build && $(MAKE) -f src/process1/CMakeFiles/process1.dir/build.make src/process1/CMakeFiles/process1.dir/statck.c.s
-.PHONY : statck.c.s
-
 string.o: string.c.o
 
 .PHONY : string.o
@@ -272,15 +272,15 @@ help:
 	@echo "... c_base.o"
 	@echo "... c_base.i"
 	@echo "... c_base.s"
+	@echo "... hj.o"
+	@echo "... hj.i"
+	@echo "... hj.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
 	@echo "... process1.o"
 	@echo "... process1.i"
 	@echo "... process1.s"
-	@echo "... statck.o"
-	@echo "... statck.i"
-	@echo "... statck.s"
 	@echo "... string.o"
 	@echo "... string.i"
 	@echo "... string.s"

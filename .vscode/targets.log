@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun  1 10:44:05 2021
+# Make data base, printed on Wed Jun  2 14:14:53 2021
 
 # Variables
 
@@ -61,11 +63,11 @@ XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/lius/.local/share/fla
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_LOGS = /home/lius/.config/Code/logs/20210601T104336
+VSCODE_LOGS = /home/lius/.config/Code/logs/20210602T141431
 # environment
 CLUTTER_IM_MODULE = fcitx
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /tmp/vscode-ipc-edbf2984-118d-48f4-ae65-419c9807c6ee.sock
+VSCODE_IPC_HOOK_EXTHOST = /tmp/vscode-ipc-42cf469c-e29c-4c0f-915e-0d24ca793977.sock
 # environment
 LC_NAME = zh_CN.UTF-8
 # environment
@@ -77,7 +79,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/lius-mint:@/tmp/.ICE-unix/1428,unix/lius-mint:/tmp/.ICE-unix/1428
+SESSION_MANAGER = local/lius-mint:@/tmp/.ICE-unix/1588,unix/lius-mint:/tmp/.ICE-unix/1588
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -97,7 +99,7 @@ XDG_SESSION_DESKTOP = cinnamon
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 32153
+GIO_LAUNCHED_DESKTOP_FILE_PID = 77092
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,7 +115,7 @@ QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1520
+SSH_AGENT_PID = 1680
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # environment
@@ -229,7 +231,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /home/lius/Desktop/code.desktop
 # environment
 LANG = C
 # environment
-VSCODE_PID = 32153
+VSCODE_PID = 77092
 # variable set hash-table stats:
 # Load=110/1024=11%, Rehash=0, Collisions=11/132=8%
 
@@ -279,8 +281,6 @@ makefile:
 # Not a target:
 GNUmakefile:
  
-make: *** No rule to make target 'all'.  Stop.
- 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
@@ -300,6 +300,6 @@ make: *** No rule to make target 'all'.  Stop.
 # strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Tue Jun  1 10:44:05 2021
+# Finished Make data base on Wed Jun  2 14:14:53 2021
 
  

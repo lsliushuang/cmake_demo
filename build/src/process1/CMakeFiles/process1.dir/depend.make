@@ -4,6 +4,10 @@
 src/process1/CMakeFiles/process1.dir/c_base.c.o: ../src/process1/c_base.c
 src/process1/CMakeFiles/process1.dir/c_base.c.o: ../src/process1/c_base.h
 
+src/process1/CMakeFiles/process1.dir/hj.c.o: ../src/process1/./string.h
+src/process1/CMakeFiles/process1.dir/hj.c.o: ../src/process1/hj.c
+src/process1/CMakeFiles/process1.dir/hj.c.o: ../src/process1/hj.h
+
 src/process1/CMakeFiles/process1.dir/list.c.o: ../src/process1/list.c
 src/process1/CMakeFiles/process1.dir/list.c.o: ../src/process1/list.h
 
@@ -12,9 +16,6 @@ src/process1/CMakeFiles/process1.dir/process1.c.o: ../src/process1/list.h
 src/process1/CMakeFiles/process1.dir/process1.c.o: ../src/process1/process1.c
 src/process1/CMakeFiles/process1.dir/process1.c.o: ../src/process1/process1.h
 src/process1/CMakeFiles/process1.dir/process1.c.o: ../src/process1/string.h
-
-src/process1/CMakeFiles/process1.dir/statck.c.o: ../src/process1/statck.c
-src/process1/CMakeFiles/process1.dir/statck.c.o: ../src/process1/statck.h
 
 src/process1/CMakeFiles/process1.dir/string.c.o: ../src/process1/./string.h
 src/process1/CMakeFiles/process1.dir/string.c.o: ../src/process1/string.c

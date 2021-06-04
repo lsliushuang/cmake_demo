@@ -6,13 +6,27 @@
 
 #IncludeRegexTransform: 
 
-../src/process1/./string.h
+/home/lius/stduy/cmake_demo/src/process1/c_base.h
 
-/home/lius/stduy/cmake_demo/src/process1/string.c
+/home/lius/stduy/cmake_demo/src/process1/list.h
+stdbool.h
+-
+
+/home/lius/stduy/cmake_demo/src/process1/process1.c
 stdio.h
 -
-string.h
+math.h
 -
+process1.h
+/home/lius/stduy/cmake_demo/src/process1/process1.h
+list.h
+/home/lius/stduy/cmake_demo/src/process1/list.h
+c_base.h
+/home/lius/stduy/cmake_demo/src/process1/c_base.h
 string.h
+/home/lius/stduy/cmake_demo/src/process1/string.h
+
+/home/lius/stduy/cmake_demo/src/process1/process1.h
+
 /home/lius/stduy/cmake_demo/src/process1/string.h
 
